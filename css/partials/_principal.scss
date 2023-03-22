@@ -1,0 +1,32 @@
+.izquierda{
+        background: $mainColor;
+        height: 100vh;
+        width: 50%;
+
+        h1{
+            position: relative;
+            top: 400px;
+            font-size: 120px;
+            width: 60%;
+            color: black;
+            margin-bottom: 40px;
+            margin: auto;
+        }
+
+        .creative{
+            color:white;
+            font-size: 120px;
+            transition-duration: 2s;
+        }
+    }
+    .derecha{
+        background: url(https://cdn.foodandwineespanol.com/2019/06/detscada-hongos.jpg) ;
+        background-size: cover;
+        background-position: center;
+        width: 50%;
+        height: 100vh;
+    }
+    #pantalla-dividida{
+        display: flex;
+    }
+

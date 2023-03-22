@@ -1,0 +1,389 @@
+body {
+  background-color: #ffbc0f;
+}
+
+.izquierda {
+  background: #ffbc0f;
+  height: 100vh;
+  width: 50%;
+}
+.izquierda h1 {
+  position: top;
+  position: relative;
+  top: 400px;
+  font-size: 90px;
+  width: 60%;
+  color: black;
+  margin-bottom: 40px;
+  margin: auto;
+  top: -20;
+}
+.izquierda .creative {
+  top: -20;
+  position: top;
+  color: white;
+  font-size: 90px;
+  transition-duration: 2s;
+}
+
+.derecha {
+  background: url(https://cdn.foodandwineespanol.com/2019/06/detscada-hongos.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100vh;
+  height: 100vh;
+}
+
+#pantalla-dividida {
+  display: flex;
+}
+
+.imgreceta {
+  height: 33vh;
+  width: 33vh;
+}
+
+.titulo {
+  background-color: whitesmoke;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  border-radius: 20px;
+}
+
+.imgreceta {
+  margin-top: 1px;
+  margin-bottom: 0.5cm;
+  border-radius: 10px;
+}
+
+.col-lg-3 {
+  background-color: whitesmoke;
+  border-radius: 40px;
+}
+
+.receta {
+  background-color: whitesmoke;
+}
+
+.container-fluid {
+  margin: 0 auto;
+  align-items: center;
+}
+.container-fluid .container-fluid h2 {
+  color: rgb(15, 14, 15);
+  position: relative;
+  width: 23rem;
+  align-items: center;
+  justify-content: center;
+}
+.container-fluid .container-fluid h2::after {
+  align-items: center;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 12px;
+  width: 67px;
+  height: 2px;
+}
+.container-fluid .accordion {
+  width: 100%;
+  padding: 0 5px;
+  border: 2px solid #000000;
+  background-color: whitesmoke;
+  cursor: pointer;
+  border-radius: 50px;
+  display: flex;
+  margin: 10px 0;
+  align-items: center;
+}
+.container-fluid .accordion .icon {
+  margin: 0 10px 0 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  float: left;
+  transition: all 0.5s ease-in;
+}
+.container-fluid .accordion h5 {
+  font-size: 22px;
+  margin: 0;
+  padding: 3px 0 0 0;
+  font-weight: normal;
+  color: #1f5c9a;
+}
+.container-fluid .panel {
+  padding: 0 15px;
+  border-left: 1px solid #000000;
+  margin-left: 25px;
+  font-size: 14px;
+  text-align: justify;
+  overflow: hidden;
+  max-height: 0px;
+  transition: all 0.5s ease-in;
+}
+.container-fluid .container-fluid {
+  width: 40%;
+  margin: 0 auto;
+}
+
+#formulario-contacto {
+  width: 450px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+  font-family: monospace;
+}
+#formulario-contacto h2 {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+#formulario-contacto input, #formulario-contacto textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 20px;
+  border: none;
+}
+#formulario-contacto textarea {
+  min-height: 100px;
+  max-height: 400px;
+  max-width: 100%;
+}
+#formulario-contacto #boton {
+  background: #343434;
+  color: #fff;
+  padding: 20px;
+}
+#formulario-contacto #boton:hover {
+  cursor: pointer;
+}
+@media (max-width: 480px) {
+  #formulario-contacto {
+    width: 100%;
+  }
+}
+
+footer {
+  width: 100%;
+  padding: 50px 0px;
+  background-image: url(../img/background-footer.svg);
+  background-size: cover;
+}
+footer .container__footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 100px;
+}
+footer .box__footer {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+footer .box__footer.logo img {
+  width: 180px;
+}
+footer .box__footer h2 {
+  margin-bottom: 30px;
+  color: #343434;
+  font-weight: 700;
+}
+footer .box__footer a {
+  margin-top: 10px;
+  color: #7a7a7a;
+  font-weight: 600;
+}
+footer .box__footer a:hover {
+  opacity: 0.8;
+}
+footer .box__footer a .fab {
+  font-size: 20px;
+}
+footer .box__copyright {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 40px;
+}
+footer .box__copyright p {
+  margin-top: 20px;
+  color: #7a7a7a;
+}
+footer .box__copyright hr {
+  border: none;
+  height: 2px;
+  background-color: #7a7a7a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.container-slider {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  overflow: hidden;
+  box-shadow: 0 0 0 10px #fff, 0 15px 50px;
+  position: relative;
+  margin-top: 2cm;
+  max-height: 400px;
+}
+
+.slider {
+  display: flex;
+  width: 500%;
+  height: 400px;
+  margin-left: -100%;
+}
+
+.slider__section {
+  width: 100%;
+  height: 400px;
+}
+
+.slider__img {
+  display: block;
+  width: 100%;
+  max-height: 400px;
+  -o-object-fit: contain;
+    object-fit: contain;
+}
+
+.slider__img-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+}
+
+.slider__btn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.7);
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider__btn:hover {
+  background: #fff;
+}
+
+.slider__btn--left {
+  left: 10px;
+}
+
+.slider__btn--right {
+  right: 10px;
+}
+.fade-in {
+  text-align: center;
+  border: 2px solid #ffbc0f;
+  background-color: #ffe6b3;
+  padding: 20px;
+  list-style: none;
+  border-radius: 10px;
+  max-width: 600px; 
+  margin: 0 auto; 
+}
+
+.fade-in li {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 1s ease forwards;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 20px; 
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.fade-in li:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.fade-in li:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.fade-in li:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.fade-in i {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.card-title {
+  font-size: 1.25rem;
+}
+
+.btn {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+@media (min-width: 768px) {
+  .card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .card {
+    flex: 1 0 0%;
+    margin-right: 15px;
+    margin-bottom: 0;
+    margin-left: 15px;
+  }
+}
+
+
+
+
+
+
+/*# sourceMappingURL=estilo.css.map */
